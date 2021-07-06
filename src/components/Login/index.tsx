@@ -1,5 +1,8 @@
+
+import Link from 'next/link'
 import { Button, Form } from "react-bootstrap";
-import styles from '../../styles/components/Login/styles.module.css'
+import styles from '../../styles/components/login.module.scss'
+
 
 export default function Login(){
   return(
@@ -13,10 +16,12 @@ export default function Login(){
         <Form.Group controlId="formBasicPassword">
           <Form.Control size='lg' type="password" placeholder="Senha" />
         </Form.Group>
-
-        <Button variant="primary" type="submit" block size='lg' >
-          Login
-        </Button>
+        <a href="#" className={styles.link}>Cadastrar-me</a>
+        <Link href="/dashboard">
+          <Button variant="primary" type="submit" block size='lg' >
+            Login
+          </Button>
+        </Link>
       </Form>
     </div>
   )

@@ -1,0 +1,37 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white:#ffffff;
+  --white-gray:#eeeeee;
+  --gray-line:#dcdde0;
+  --text:#666666;
+  --text-highlight:#b3b9ff;
+  --title:#2e384d;
+  --red:#e83f5b;
+  --green:#4cd62b;
+  --blue:#0085FF;
+  --blue-dark:#022A4F;
+  --yellow: #E08E0B;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+body, input, select, textarea, button {
+  font: 400 1rem "Roboto", sans-serif;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+ 
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
